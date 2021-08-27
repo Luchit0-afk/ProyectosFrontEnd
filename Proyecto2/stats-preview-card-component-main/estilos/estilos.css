@@ -21,48 +21,58 @@ body{
     margin: 180px 120px;
     background-color: hsl(244, 38%, 16%);
     overflow: auto;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 #imagen{
     float:right;
-    position: static;
+    position: inherit;
     height: 100%;
+    /*background-image: url(/images/image-header-desktop.jpg);*/
     background-color: hsl(277, 64%, 61%);
 }
 
 #informacion{
     /*background-color: red;*/
     /*padding: 40px 75px;*/
-    padding: 30px;
-    padding-right: 500px;
+    width: 40%;
+    padding: 50px;
     color:hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
 }
 
 .titulo{
     margin-bottom: 40px;
+    font-size: 34px;
 }
 
 .descripcion{
     color: hsla(0, 0%, 100%, 0.75);
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    line-height : 20px;
 }
 
 .enc_est{
     color:hsl(0, 0%, 100%);
-    font-size: 25px;
+    font-size: 21px;
+    text-transform: lowercase;
+    line-height : 30px;
 }
 
 .estadistica{
     display: inline-block;
     color: hsla(0, 0%, 100%, 0.75);
     /*background-color: blue;*/
-    margin: 7px auto;
-    margin-right: 10px;
+    margin-right: 40px;
     font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
 }
 
+.enc_est #m{
+    text-transform: uppercase;
+}
 
 #pal_colorear{
     color:hsl(277, 64%, 61%);
