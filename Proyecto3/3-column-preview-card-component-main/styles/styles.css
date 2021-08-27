@@ -59,7 +59,8 @@ body{
     font-size: 15px; /*A modificar*/
     text-transform:lowercase;
     font-family: 'Lexend Deca', sans-serif;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
+    margin-top: 40px;
 }
 
 #bottomS{
