@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/*font-family: 'Lexend Deca', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* font-family: 'Big Shoulders Display', cursive;*/
+
+.attribution { font-size: 11px; text-align: center; clear:both}
+.attribution a { color: hsl(228, 45%, 44%);}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.container{
+    width: 900px;
+    height: 500px;
+    /*background-color:blueviolet;*/
+    margin: 120px 160px;
+    margin-top: 150px;
+}
+
+.part{
+    width: 300px;
+    float:left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding:40px;
+    border-radius: 12px 0 0 12px;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding:40px;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding:40px;
+    border-radius: 0 12px 12px 0;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+.title{
+    color: hsl(0, 0%, 95%);
+}
+
+.description{
+    color:hsl(0, 0%, 100%, 0.75);
+    font-size: 15px; /*A modificar*/
+    text-transform:lowercase;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 70px;
+}
+
+#bottomS{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    /*-webkit-background-clip: text;*/
+    padding: 12px 25px;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#bottomSu{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    /*-webkit-background-clip: text;*/
+    padding: 12px 25px;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#bottomL{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    /*-webkit-background-clip: text;*/
+    padding: 12px 25px;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#bottomS:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+}
+
+#bottomSu:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+}
+
+#bottomL:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
