@@ -1,32 +1,32 @@
-# Front-end Style Guide
+# Guía de estilo de front-end
 
-## Layout
+## Diseño
 
-The designs were created to the following widths:
+Los diseños se crearon con los siguientes anchos:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Móvil: 375px
+- Escritorio: 1440px
 
-## Colors
+## Colores
 
-### Primary
+### Primario
 
-Very Dark Magenta: hsl(300, 43%, 22%)
-Soft Pink: hsl(333, 80%, 67%)
+Magenta muy oscuro: hsl(300, 43%, 22%)
+Rosa suave: hsl(333, 80%, 67%)
 
 ### Neutral
 
-Dark Grayish Magenta: hsl(303, 10%, 53%)
-Light Grayish Magenta: hsl(300, 24%, 96%)
-White: hsl(0, 0%, 100%)
+Magenta grisáceo oscuro:hsl(303, 10%, 53%)
+Magenta grisáceo claro: hsl(300, 24%, 96%)
+Blanco: hsl(0, 0%, 100%)
 
-## Typography
+## Tipografía
 
-### Body Copy
+### Copia de cuerpo
 
-- Font size: 15px
+- Tamaño de fuente: 15px
 
-### Font
+### Fuente
 
-- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
-- Weights: 400, 500, 700
+- Familia: [Spartan] (https://fonts.google.com/specimen/Spartan)
+- Pesos: 400, 500, 700

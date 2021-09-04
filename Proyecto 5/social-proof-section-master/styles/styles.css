@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 1440px;
+    font-size:15px;
+    font-family: 'Spartan', sans-serif;
+    color:black;
+    /*background-color: red;*/
+}
+
+#container{
+    /*width: 1300px;*/
+    margin: 50px 140px;
+    background-color:white;
+}
+
+#titles{
+    /*background-color: blue;*/ 
+    width: 40%;  
+    float:left;
+}
+
+#title{
+    color: hsl(300, 43%, 22%);
+    /*background-color: beige;*/
+    width: 90%;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#description{
+    color:gray;   
+}
+
+#statistics{
+    /*float:left;*/
+    /*margin: 0px auto;*/
+}
+
+.statistic{
+    background-color: hsl(300, 24%, 96%);
+    color:hsl(300, 43%, 22%);
+    margin: 20px 0px;
+    display: inline-block;
+    padding: 13px 0;
+    padding-left: 25px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.star{
+    padding-right: 3px ;
+}
+
+.one_sta{
+    margin-left: 100px;
+}
+
+.two_sta{
+    margin-left: 140px ;
+}
+
+.third_sta{
+    margin-left: 180px;
+}
+
+#profiles{
+    margin-top: 80px;
+}
+
+.profile_image{
+    border-radius: 200px;
+    float:left;
+    width: 15%;
+    height: 15%;
+}
+
+.profile{
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    display: inline-block;
+    border-radius: 12px;
+    padding: 35px 25px;
+    margin-right: 25px;
+    position: static;
+}
+
+.name{
+    color:white;
+}
+
+.verifed{
+    color: hsl(333, 80%, 67%);
+}
+
+.presentation{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.description{
+    color:white;
+}
+/*
+.one_profile{
+    margin-left: 0px;
+}
+
+.two_profile{
+    margin-top: 120px;
+}
+
+.third_profile{
+    margin-top: 140px;
+}
+*/
