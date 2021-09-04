@@ -1,31 +1,29 @@
-# Front-end Style Guide
+## Diseño
 
-## Layout
+Los diseños se crearon con los siguientes anchos:
 
-The designs were created to the following widths:
+- Móvil: 375px
+- Escritorio: 1440px
 
-- Mobile: 375px
-- Desktop: 1440px
+## Colores
 
-## Colors
+### Primario
 
-### Primary
-
-Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
+Cian oscuro: hsl (185, 75%, 39%)
+Azul desaturado muy oscuro: hsl (229, 23%, 23%)
+Azul grisáceo oscuro: hsl (227, 10%, 46%)
 
 ### Neutral
 
-Dark gray: hsl(0, 0%, 59%)
+Gris oscuro: hsl (0, 0%, 59%)
 
-## Typography
+## Tipografía
 
-### Body Copy
+### Copia de cuerpo
 
-- Font size (name and stats): 18px
+- Tamaño de fuente (nombre y estadísticas): 18px
 
-### Font
+### Fuente
 
-- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
-- Weights: 400, 700
+- Familia: [Kumbh Sans] (https://fonts.google.com/specimen/Kumbh+Sans)
+- Pesos: 400, 700
