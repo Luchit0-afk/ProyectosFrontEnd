@@ -5,43 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <link rel="stylesheet" type="text/css" href="/css/estilos.css">
-  
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css">
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
 <body>
-
-  <div class = "card">
-    <header>
-    <img id = "head" src="/images/bg-pattern-card.svg">
-    <img  id = "image_profile" src="/images/image-victor.jpg">
-    </header>
-    <div id = "name">Victor Crest</div>
-    <span id = "age">26</span>
-    <div id = "city">London</div>
-
-    <div id = "data">
-      <div class = "statics">
-        <span class = "number">80K</span>
-        <br>
-        <span class = "description">Followers</span>
+  <section class = "profile">
+    <img id = "headImage" src="/images/bg-pattern-card.svg">
+    <img class = "profile_perfil"src= "images/image-victor.jpg">
+      <div class = "profile_name">Victor Crest
+        <span class = "profile_edad">26</span>
       </div>
-
-      <div class = "statics">
-        <span class = "number">803K</span>
-        <br>
-        <span class = "description">Likes</span>
+      <div class = "profile_city">London</div>
+      <div class = "profile_statistics">
+        <div class = "profile_statistic">
+          <div class = "profile_statistic_number">80K</div>
+          <div class = "profile_statistic_data">Followers</div>
+        </div>
+        <div class = "profile_statistic">
+          <div class = "profile_statistic_number">803K</div>
+          <div class = "profile_statistic_data">Likes</div>
+        </div>
+        <div class = "profile_statistic">
+          <div class = "profile_statistic_number">1.4K</div>
+          <div class = "profile_statistic_data">Photos</div>
+        </div>
       </div>
-      
-      <div class = "statics">
-        <span class = "number">1.4K</span>
-        <br>
-        <span class = "description">Photos</span>
-      </div>
-    </div>
-  </div>
+  </section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
