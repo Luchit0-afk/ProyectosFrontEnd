@@ -16,7 +16,7 @@
       <img id = "image" src="/images/drawers.jpg">
     </figure>
     <article class = "information">
-      <h1 id = 'title' onclick="test()">
+      <h1 id = 'title'>
         Shift the overall look and feel by adding these wonderful 
         touches to furniture in your home
       </h1>
@@ -32,8 +32,14 @@
         <article class = "person_description">
           <h3 class ="person_name">Michelle Appleton</h3>
           <p class ="person_date">28 Jun 2020</p>
-          <img id = "share_icon" src="/images/icon-share.svg">
-          <div class = "person_data">Share</div>
+          <ion-icon name="arrow-redo-outline" id = "share_icon" onclick="test()"></ion-icon>
+          <div class = "person_date_contact">
+            <p>Share</p>
+            <img src="/images/icon-facebook.svg">
+            <img src="/images/icon-twitter.svg">
+            <img src="images/icon-pinterest.svg">
+          </div>
+          <!--img id = "share_icon" src="/images/icon-share.svg" onclick="test()"-->
         </article>
       </div>
     </article>
@@ -45,8 +51,10 @@
   <script>
     function test(){
       //this.innerHTML = 'test';
-      document.getElementById('title').innerHTML = "nuevo titulo";
+      document.getElementById("share_icon").style = "background-color: hsl(217, 19%, 35%);";
     }
   </script>
+  <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script> 
+  <script  nomodule  src = "https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js "> </script>
 </body>
 </html>

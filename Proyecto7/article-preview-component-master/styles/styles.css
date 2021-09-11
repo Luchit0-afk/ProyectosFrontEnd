@@ -78,7 +78,7 @@ body{
     font-size: 17px;
 }
 
-.person_data{
+.person_date_contact{
     /*display:none;*/
     visibility: hidden;
 }
@@ -91,5 +91,6 @@ body{
     width: 35px;
     height: 35px;
     border-radius: 100px;
+
 }
 
