@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 1440px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.container{
+    max-width: 70%;
+    /*height: 125%;*/
+    margin:300px auto;
+    font-size:13px;
+    background-color: white;
+    position:relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#image{
+    width: 35%;
+    height: 100%;
+    position:absolute;
+    z-index: 1000;
+}
+
+.information{
+    /*position:absolute;*/
+    /*float:right;*/
+    margin-left:35%;
+    padding: 6%;
+}
+
+#title{
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 23px;
+    color:hsl(217, 19%, 35%);
+    margin-bottom: 30px;
+}
+
+.person{
+
+    position: relative;
+}
+
+.person_image{
+    width: 60px;
+    height: 60px;
+    border-radius:50px;
+    position:absolute;
+}
+
+.person_description{
+    margin-left: 85px;
+}
+
+.person_name{
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 7px;
+}
+
+.person_date{
+    color:hsl(217, 19%, 35%);
+    font-size: 17px;
+}
+
+.person_data{
+    /*display:none;*/
+    visibility: hidden;
+}
+
+#share_icon{
+    position:absolute;
+    right: 0;
+    top:25%;
+    background-color: hsl(210, 46%, 95%);
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+}
+
