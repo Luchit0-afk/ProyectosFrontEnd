@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container {
+    background-color: hsl(172, 67%, 45%);
+    font-size: 24px;
+    font-family: 'Space Mono', sans-serif;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position:relative; */
+}
+
+.app {
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+    margin: 20% 0;
+    border-radius: 20px;
+    padding: 45px;
+    position: relative; 
+}
+
+.form {
+    width: 60%;
+    display: inline-block;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: right;
+    background-color:  hsl(185, 41%, 84%);
+    border: none;
+    border-radius: 10px;
+    font-size: 26px;
+    font-family: 'Space Mono', sans-serif;
+    color: hsl(184, 14%, 56%);
+}
+
+.titles-form {
+    color: hsl(186, 14%, 43%);
+}
+
+.options-tip {
+
+}
+
+.tip-option {
+    display:inline-block;
+    background-color: hsl(183, 100%, 15%);
+    width: 120px;
+    height: 40px;
+    padding: 5px 0px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 26px;
+    margin: 0 5px 13px 0;
+    text-align: center;
+}
+
+.result {
+    background-color: hsl(183, 100%, 15%);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 15px;
+    float: right;
+    position: relative;
+    top: 0px;
+    left: 00px;
+    text-align: center;
+}
+
+.main-information {
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.text-information {
+    margin-bottom: 3px !important;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+}
+
+.sub-text-information {
+    margin-top: 0px !important;
+    font-size: 17px;
+    color: hsl(184, 14%, 56%);
+    text-align: left;
+}
+
+.numbers {
+    color:hsl(172, 67%, 45%);
+    display: inline-block;
+    float: right;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.button-reset {
+    clear: both;
+    /* margin: 10px 30%; */
+    display: block;
+
+}

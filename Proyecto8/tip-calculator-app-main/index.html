@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>Tip calculator app</title>  
+</head>
+<body>
+  <div class="container">
+    <div class="app">
+      <div class="form">          
+        <label class="titles-form" for="input-bill">Bill</label>
+        <br/>
+        <input id="input-bill" type="number">
+
+        <p class="titles-form">Select Tip %</p>
+        <div class="options-tip">
+
+          <div class="tip-option">5%</div>
+          <div class="tip-option">10%</div>
+          <div class="tip-option">15%</div>
+          <br/>
+          <div class="tip-option">25%</div>
+          <div class="tip-option">50%</div>
+          <div class="tip-option custom">Custom</div>
+        </div> 
+
+        <label class="titles-form" for="input-people">Number of People</label>
+          <br/>
+        <input id="input-people" type="number">
+      </div>
+      <section class="result">
+        <div class="information">
+          <div class="main-information">
+            <p class="text-information">Tip Amount</p>
+            <p class="sub-text-information">/ person</p>
+          </div>
+          <p class="numbers">$0.00</p>
+        </div>
+        
+        <br>
+        <div class="information">
+          <div class="main-information">
+            <p class="text-information">Total</p>
+            <p class="sub-text-information">/ person</p>
+          </div>
+          <p class="numbers">$0.00</p>
+        </div>
+        <div class="button-reset">
+          Reset
+        </div>
+      </section>
+    </div>
+    <!-- <footer class="footer">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer> -->
+  </div>
+  
+</body>
+</html>
